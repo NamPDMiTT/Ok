@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.layout {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*----- header -----*/
+
+header {
+    background-color: darkblue;
+    margin-bottom: 2px;
+}
+
+header img {
+    padding: 10px 0 10px 0;
+}
+
+
+/*----- nav -----*/
+
+.menu {
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    background-color: rgb(173, 64, 13);
+}
+
+.menu>ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu>ul>li {
+    padding: 0 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.menu ul a {
+    text-decoration: none;
+    margin-left: 25px;
+    display: block;
+    color: white;
+}
+
+.menu ul a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+/*----- anh1 -----*/
+
+.anh1 {
+    width: 1000px;
+    height: 300px;
+    background-image: url(image/banner.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+}
+
+
+/*----- find -----*/
+
+.find {
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(173, 64, 13);
+}
+
+.find input {
+    width: 800px;
+    height: 25px;
+    padding-left: 20px;
+    margin: 10px 20px 15px 0;
+}
+
+.find button {
+    color: white;
+    background-color: darkblue;
+}
+
+.find button:hover {
+    background-color: aqua;
+}
+
+
+/*----- News -----*/
+
+h3 {
+    color: red;
+}
+
+h3:hover {
+    color: rgb(0, 255, 13);
+}
+
+.col {
+    width: 50%;
+    min-height: 375px;
+    float: left;
+}
+
+.pro {
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.pro img {
+    max-width: 95%;
+    padding: 0%;
+    background: white;
+    border-radius: 0px;
+}
+
+
+/*-----Footer-----*/
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    line-height: 50px;
+}
